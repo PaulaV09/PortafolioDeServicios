@@ -1,0 +1,178 @@
+body {
+  font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
+  background: #f5f6fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #222;
+}
+h2 {
+  font-size: 1.3rem;
+  color: #5ce1e6;
+  margin-bottom: 10px;
+}
+
+header {
+  background: linear-gradient(135deg, #5ce1e6, #333333);
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.personal-card,
+.background-card,
+.services-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.personal-card:hover,
+.background-card:hover,
+.services-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.personal-card {
+  flex: 0.6;
+}
+.background-card {
+  flex: 2.2;
+}
+.services-card {
+  flex: 1;
+}
+
+.profile-photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  border: 4px solid #5ce1e6;
+}
+
+.card-section {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.card-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #5ce1e6;
+  font-weight: 600;
+}
+
+.info-block {
+  margin-bottom: 15px;
+}
+
+.info-block h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.info {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+a.link {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s;
+}
+a.link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -2px;
+  background: #5ce1e6;
+  transition: width 0.3s;
+}
+
+.link:hover {
+  color: #5ce1e6;
+}
+
+a.link:hover::after {
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-left: 10px;
+}
+
+.skill-item,
+.lenguages-item {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  transition: background 0.2s ease;
+}
+
+.skill-item:hover,
+.lenguages-item:hover {
+  background: #eefdfd;
+}
+
+.video {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .personal-card,
+  .background-card,
+  .services-card {
+    flex: unset;
+    width: auto;
+  }
+}
