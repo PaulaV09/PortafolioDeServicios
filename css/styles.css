@@ -66,8 +66,8 @@ header {
 
 .profile-photo {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   margin: 0 auto 20px auto;
@@ -162,6 +162,15 @@ a.link:hover::after {
   border-radius: 12px;
   margin-top: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 15px 10px;
+  background: #333;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 30px;
 }
 
 @media (max-width: 1000px) {
