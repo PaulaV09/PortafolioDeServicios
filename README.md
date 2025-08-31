@@ -6,7 +6,7 @@ El diseño se inspira en una estética **minimalista, elegante y tecnológica**,
 
 ## 🚀 Demo en Vivo
 
-Puedes ver el portafolio en acción aquí: **[Enlace al portafolio desplegado]**
+Puedes ver el portafolio en acción aquí: [https://inspiring-gumdrop-ac5606.netlify.app/](https://inspiring-gumdrop-ac5606.netlify.app/)
 
 ## 📸 Vista Previa
 
